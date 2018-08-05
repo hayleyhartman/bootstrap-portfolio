@@ -5,6 +5,7 @@ body {
 
 .navbar {
     background-color: white;
+    margin-bottom: 20px;
 
 }
 
@@ -40,7 +41,7 @@ h2 {
     font-weight: bold;
     border-bottom: 3px #777777 solid;
     width: 95%;
-    margin: 0 auto
+    margin: 0 auto 20px;
 }
 
 
@@ -60,6 +61,22 @@ p {
 }
 
 .portfolio {
-    padding: 20px 0px;
+    text-align: center;
+}
+.img-fluid {
+    width: 80%;
+    height: auto;
+}
+
+.figure {
+    position: relative;
+}
+
+.figure-caption {
+    background-color: white;
+    position: absolute;
+    bottom: 10%;
+    left: 0px;
+    width: 100%;
     text-align: center;
 }
